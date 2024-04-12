@@ -16,7 +16,7 @@ jobs:
       with:
         args: deploy --only hosting
       env:
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ANIMESH_RAWAT }}
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_Rishabh_RAWAT }}
 
           
           

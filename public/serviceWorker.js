@@ -1,4 +1,4 @@
-const staticAnimeshData = "site-cache-v1";
+const staticRishabhData = "site-cache-v1";
 const assets = [
   //   "/",
   "/index.html",
@@ -6,7 +6,7 @@ const assets = [
   "/assets/css/swiper-bundle.min.css",
   "/assets/js/main.js",
   "/assets/js/swiper-bundle.min.js",
-  "/assets/pdf/Animesh_Rawat_resume.pdf",
+  "/assets/pdf/Rishabh_Rawat_resume.pdf",
   "/assets/img/blob.svg",
   "/assets/img/hacker-profile.png",
   "/assets/img/mt-fuji.jpg",
@@ -28,7 +28,7 @@ const assets = [
 
 self.addEventListener("install", (installEvent) => {
   installEvent.waitUntil(
-    caches.open(staticAnimeshData).then((cache) => {
+    caches.open(staticRishabhData).then((cache) => {
       cache.addAll(assets);
     })
   );
